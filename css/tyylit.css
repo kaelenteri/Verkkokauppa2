@@ -1,0 +1,40 @@
+/* 
+    Document   : tyylit
+    Created on : 14.10.2013, 1:20:59
+    Author     : Make
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+table#tilaus {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #999999;
+    border-collapse: collapse;
+}
+table#tilaus th {
+    background: #cccccc;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #999999;
+}
+table#tilaus td {
+    background:#cccccc;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #999999;
+    text-align: center;
+    vertical-align: middle;
+}
+img#tuote{
+    width:  150px;
+    height: auto;
+}
