@@ -9,7 +9,7 @@ namespace Verkkokauppa2\Entity;
  */
 class TietokantaAvustaja {
     public static function avaaSQL(){
-        return $yhteys = new \mysqli('localhost', 'make', 'toppi', 'verkkokauppa2');
+        return $yhteys = new \mysqli('localhost', 'user', 'xxxxx', 'verkkokauppa2');
     }
 }
 
